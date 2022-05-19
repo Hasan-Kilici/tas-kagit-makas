@@ -1,0 +1,47 @@
+*{box-sizing:border-box;}
+body{
+margin:0;
+padding:0;
+}
+/**Desing**/
+.game{
+display:flex;
+justify-content:center;
+align-items:center;
+flex-wrap:wrap;
+gap:4vw;
+width:min(100% - 10%);
+margin-inline:auto;
+background-color:#191A19;
+height:50vh;
+border-top-left-radius:0.9em;
+border-top-right-radius:0.9em;
+}
+.logs{
+display:flex;
+justify-content:center;
+align-items:center;
+width:min(100% - 10%);
+margin-inline:auto;
+background-color:#143F6B;
+gap:2vw;
+height:25vh;
+border-bottom-left-radius:0.9em;
+border-bottom-right-radius:0.9em;
+}
+button{
+border:none;
+background-color:#143F6B;
+font-size:25px;
+border-radius:4px;
+color:#ffffff;
+padding:2vh 2vw;
+text-align:center;
+}
+#beraberlik{color:#F6F54D;}
+#galibiyet{color:#4E9F3D;}
+#botgalibiyet{color:#F55353;}
+.skor{
+text-align:center;
+color:white;
+}
